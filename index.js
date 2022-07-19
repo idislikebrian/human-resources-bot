@@ -1,0 +1,24 @@
+const Discord = require('discord.js');
+
+const prefix = '!';
+
+const client = new Discord.Client({
+    allowedMentions: {
+        parse: [`users`, `roles`],
+        repliedUser: true,
+    },
+    intents: [
+        "GUILDS",
+        "GUILD_MESSAGES",
+        "GUILD_PRESENCES",
+        "GUILD_MEMBERS",
+        "GUILD_MESSAGE_REACTIONS",
+    ],
+
+});
+
+client.on("ready", () => {
+    console.log("Human Resources is functioning!")
+})
+
+client.login("PUT-KEYS-HERE")

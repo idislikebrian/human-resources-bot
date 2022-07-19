@@ -1,0 +1,15 @@
+{
+  "name": "human-resources-bot",
+  "version": "1.0.0",
+  "description": "Helper bot for Ws Discord",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Brian Felix",
+  "license": "ISC"
+}
